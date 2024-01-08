@@ -1,0 +1,42 @@
+@charset "UTF-8"
+
+;*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#fundo{
+    background: moccasin url("..//imagens/fundo-madeira.jpg") center center no-repeat fixed;
+    background-size: cover;    
+    height: 100vh;
+}
+
+
+#celular{
+    background: url("..//imagens/frame-iphone.png") ; 
+    width: 311px;
+    height: 627px;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    translate: -50% -50%;
+} 
+
+.sociais{
+    display: block;
+    width: 40px;
+    height: 40px;
+ border-radius: 160px;
+
+ margin: 8px;
+ margin-left: 92vw;
+}
+
+.sociais:hover{
+    transition-duration: 1s;
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+}

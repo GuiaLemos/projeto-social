@@ -4,11 +4,14 @@
     margin: 0px;
     padding: 0px;
 }
-
-#fundo{
+section{
+    display: block;
+}
+section#fundo{
     background: moccasin url("..//imagens/fundo-madeira.jpg") center center no-repeat fixed;
     background-size: cover;    
     height: 100vh;
+    text-align: right;
 }
 
 
@@ -25,13 +28,13 @@
 } 
 
 .sociais{
-    display: block;
     width: 40px;
     height: 40px;
  border-radius: 160px;
 
  margin: 8px;
- margin-left: 92vw;
+ display: block;
+ text-align: right;
 }
 
 .sociais:hover{
@@ -39,4 +42,8 @@
     width: 45px;
     height: 45px;
     border: 1px solid white;
+}
+
+iframe{
+    scro
 }

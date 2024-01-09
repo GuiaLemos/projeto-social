@@ -4,14 +4,17 @@
     margin: 0px;
     padding: 0px;
 }
-section{
-    display: block;
-}
+
 section#fundo{
     background: moccasin url("..//imagens/fundo-madeira.jpg") center center no-repeat fixed;
     background-size: cover;    
     height: 100vh;
     text-align: right;
+}
+
+div#redes{
+    position: absolute;
+    right: 10px;
 }
 
 
@@ -30,11 +33,10 @@ section#fundo{
 .sociais{
     width: 40px;
     height: 40px;
- border-radius: 160px;
+    border-radius: 160px;
+    margin:8px;
 
- margin: 8px;
- display: block;
- text-align: right;
+    display: block;
 }
 
 .sociais:hover{
@@ -45,5 +47,10 @@ section#fundo{
 }
 
 iframe{
-    scro
+    display: block;
+    margin: auto;
+    width: 267px;
+    height: 473px;
+    padding-top:80px;
 }
+

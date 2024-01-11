@@ -29,6 +29,10 @@ div#redes{
 
     translate: -50% -50%;
 } 
+span#tela{
+    max-width: 100%;
+    max-height: 100%;
+}
 
 .sociais{
     width: 40px;
